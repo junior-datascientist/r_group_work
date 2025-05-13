@@ -1,0 +1,24 @@
+DATASET USED
+Source: USDA National Agricultural Statistics Service (NASS), Quick Stats Database. Accessed via API on the 30 April, 2025, https://quickstats.nass.usda.gov/
+
+The Dataset Fetched Through API Requests Contained Around 40+ Columns, But We Have Choosed 7 columns Which Have Impact On Agriculture Production.
+Available Columns are:
+Year, state_alpha, commodity_desc, YIELD, Production, AreaPlanted and PriceReceived.
+
+key Features Of Above Columns:
+We choosed the dataset because it have have and related to agriculture, Year by expressing when the crops planted and its integer, state_alpha shows in which states those crops planted from , datatype is charater specified by state abbreviation example IL mean ILOINS,commodity_desc, to mean the information about the crop planted and it's character example data is SOYBEANS, YIELD is numeric filed to show much crop produced per unit area of land and it's numeric,Productionb is numeric column to show HOW much products harvest per Yield,AreaPlanted  is numeric column to express how much area planted in the year and PriceReceived is numeric column to detremine how much the farmer received per production.
+
+Initial Patternes:
+
+In Our Exploration and Data Visualisation we've figured out crazy and clear insights from the data.
+It looks like In LOWA states There Is High Production Of 10412852473 from 2015 - 2020, and there positive correlation between AreaPlanted and Production, where Increase in AreaPlanted Lead To Increase In Production.
+And Some Categorical Variable has Uneven Distribution Where Some Has High Distribution Compared to others, In our case Corn and SOYBEANS has high Distribution Compared to COmmodity like SORGHUM Or BARLEY
+
+Potential Problems:
+
+In the beginning of our exploration, we didn't find saveral different dataset related to agriculture that has satsfied all requirements, some was very clean and reliable which doen't give us good job to do, so we did'nt consider them, some sources didn't help us to find data related to agriculture before we find Unitted States National Statistics Service(NASS).
+We Faced High Missing Values In Three Columns (AreaPlanted, Production And PriceReceived), and also Some Similar Values Rarely appeared in datasety which caused some data quality issues.
+
+Initial Ideas:
+
+Based On our research and dataset it's not quite easy generally to find an other proceding tasks like Linear Regression task or any other Machine Learning Due To Bad Data Quality and Some Irrelevant Datapoints Because we had high missing values and we handled them using mean but still dataset is not quite balanced.
