@@ -1,0 +1,1 @@
+Source: USDA National Agricultural Statistics Service (NASS), Quick Stats Database. Accessed via API on the 30 April, 2025, https://quickstats.nass.usda.gov/
